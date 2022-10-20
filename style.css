@@ -128,3 +128,57 @@ body {
   font-size: 1.5rem;
   cursor: pointer;
 }
+
+#features {
+  padding: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#features .f-box {
+  text-align: center;
+  width: 18rem;
+  padding: 1rem;
+  border: 1px solid #cce7d0;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin: 1.5rem 0;
+}
+
+#features .f-box img {
+  width: 100%;
+}
+
+#features .f-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.15);
+}
+
+#features .f-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4;
+  margin: 1rem 0;
+}
+
+#features .f-box:nth-child(2) h6 {
+  background: #cdebbc;
+}
+
+#features .f-box:nth-child(3) h6 {
+  background: #d1e8f2;
+}
+
+#features .f-box:nth-child(4) h6 {
+  background: #cdd4f8;
+}
+
+#features .f-box:nth-child(5) h6 {
+  background: #f6dbf6;
+}
+
+#features .f-box:nth-child(6) h6 {
+  background: #fff2e5;
+}
